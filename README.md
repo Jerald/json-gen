@@ -10,15 +10,13 @@ Provides a simple command line interface for creating json objects.
 add <key> <value>
 ```
 Adds a property using the given key/value pair
-
-
+<br /> <br />
 
 ```
 object
 ```
 Prints out the currently generated object
-
-
+<br /> <br />
 
 ```
 path_set <arg>
@@ -31,21 +29,20 @@ The usable args are:
 
 * `concat` - Requires an additional argument after the first. Adds the additional argument as a directory on the end of the path (ie, `/foo` to `/foo/bar`)
 
-
+<br /> <br />
 
 ```
 path_get
 ```
 Prints out the currently set path (with the set filename appended on the end!)
-
+<br /> <br />
 
 
 ```
 name <arg>
 ```
 Sets the filename to the specified name. Don't forget the file extension!
-
-
+<br /> <br />
 
 ```
 output
