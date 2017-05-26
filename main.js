@@ -22,7 +22,14 @@ rl.on('line', (input) => {
 			enumerable: true
 		});
 
-		console.log('Property added as: ' + JSON.stringify(object));
+		let tempObject = {};
+		tempObject[input[1]] = input[2];
+		
+		console.log('Property added as: ' + JSON.stringify(tempObject));
+
+	} else if (input[0] === 'object') {
+		console.log('Object currently: ' + JSON.stringify(object));
+
 	} else if (input[0] === 'path_set') {
 		if (input[1] === 'pwd') {
 			path = __dirname;
