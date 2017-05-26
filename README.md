@@ -3,7 +3,7 @@ Provides a simple command line interface for creating json objects.
 
 #
 
-##Has the following simple commands:
+## Has the following simple commands:
 
 
 ```
@@ -11,14 +11,14 @@ add <key> <value>
 ```
 Adds a property using the given key/value pair
 
-#
+
 
 ```
 object
 ```
 Prints out the currently generated object
 
-#
+
 
 ```
 path_set <arg>
@@ -31,21 +31,21 @@ The usable args are:
 
 * `concat` - Requires an additional argument after the first. Adds the additional argument as a directory on the end of the path (ie, `/foo` to `/foo/bar`)
 
-#
+
 
 ```
 path_get
 ```
 Prints out the currently set path (with the set filename appended on the end!)
 
-#
+
 
 ```
 name <arg>
 ```
 Sets the filename to the specified name. Don't forget the file extension!
 
-#
+
 
 ```
 output
